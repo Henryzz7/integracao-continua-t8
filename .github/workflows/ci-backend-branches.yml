@@ -22,7 +22,7 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v5
             - name: Merge
-              uses: devmasx/merge/branch@v1.4.0
+              uses: devmasx/merge-branch@v1.4.0
               with:
                 type: now
                 target_branch: main
