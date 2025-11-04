@@ -18,7 +18,7 @@ jobs:
               with:
                 context: sgcmapi/
                 push: true
-                tags: ghcr.io/henrryz7/sgcmapi:latest
+                tags: ghcr.io/henryzz7/sgcmapi:latest
     deploy:
         needs: build-push
         runs-on: ubuntu-latest
